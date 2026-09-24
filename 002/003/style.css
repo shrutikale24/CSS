@@ -1,0 +1,37 @@
+.container{
+    height: 400px;
+    width: 600px;
+}
+.box{
+    height: 200px;
+    width:200px;
+}
+.red{
+    background-color: red;
+    position: relative;
+    top:20px;
+    left: 20px;
+    
+}
+.blue{
+    background-color: blue;
+    position:fixed;
+    left: 200px;
+    
+}
+.green{
+    background-color: green;
+    position: absolute;
+    left: 200px;
+}
+.yellow{
+    background-color: yellow;
+    position:sticky;
+    top: 50px;
+}
+.overflow{
+    height:100px ;
+    width:100px ;
+    border: 2px solid black;
+    overflow: auto;
+}

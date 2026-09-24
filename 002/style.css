@@ -1,0 +1,13 @@
+.container{
+    height: 200px;
+    width: 400px;
+    background-color: red;
+    font-size: 20px;
+
+}
+.div1{
+    height: 50%;
+    width: 50%;
+    background-color: yellow;
+    font-size: 2em;
+}
