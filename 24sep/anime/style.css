@@ -1,0 +1,28 @@
+/* div{
+    height:200px ;
+    width: 200px;
+    background-color: red;
+    animation-name: div_animation;
+    animation-timing-function: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 2s;
+}
+@keyframes div_name{
+    from{background-color: red;}
+    to{background-color: yellow;}
+} */
+
+div{
+    height:200px;
+    width:200px;
+    background-color:red;
+    animation-name:div_animation;
+    animation-duration:2s;
+    animation-timing-function: ease-in;
+    animation-delay:2s;
+}
+@keyframes div_animation{
+    0%{background-color:red;}
+    50%{background-color:yellow;}
+    100%{background-color:black;}
+}

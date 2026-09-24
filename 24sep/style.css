@@ -1,0 +1,45 @@
+/* div{
+    height:200px ;
+    width:200px;
+    background-color: red;
+    font-size:40px ;
+    position: relative;
+    top: 100px;
+    left: 40px;
+    transition-property:all ;
+    /* transition-duration:2s ;
+    transition-timing-function:ease-in ;
+    transition-delay: 2s; */ */
+    /* transform:translate: (50px);
+}
+div:hover{
+    background-color: blue;
+    color: white;
+    
+} */ */
+
+div{
+    height:200px;
+    width:200px;
+    background-color:red;
+    font-size:40px;
+    position:relative;
+    top:40px;
+    left:40px;
+
+
+    transition-property: all;
+    transition-timing-function:ease-in;
+    transition-duration:2s;
+    transform:rotate(45deg);
+    transform:scale(1,2);
+    transform:translate(50px);
+
+}
+
+div:active{
+    background-color:blue;
+    color:white;
+    transform:skew(90deg);
+
+}
